@@ -1,10 +1,10 @@
 import Model.Company;
 import Model.Location;
 import Model.Operates;
-public class Main {
-    public static
-
-    void main(String[] args) {
+public class Main
+{
+    public static void main(String[] args)
+    {
         // Company
         Company[] com_array;
         com_array = new Company[5];

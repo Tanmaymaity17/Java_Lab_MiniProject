@@ -1,13 +1,9 @@
 package Model;
 
-import java.lang.Math;
-import java.util.ArrayList;
-import java.util.Date;
-
 /**
  * Identification comments:
  *   Name: Tanmay Maity
- *   Experiment No: 1
+ *   Experiment No: 01
  *   Experiment Title: Implementing many-to-many relationship using classes and objects
  *   Experiment Date: 28/07/2023
  *   @version 1.0
@@ -29,17 +25,16 @@ import java.util.Date;
 
 public class Company
 {
-
     /* Company attributes */
     private int companyID;
     private String companyName;
     private String industry;
     private String sector;
-    private int foundedIn;
     private String ceo;
+    private int foundedIn;
     private long revenue;
 
-    //setters
+    // Setters
     public void setCompanyID(int companyID)
     {
         this.companyID = companyID;
@@ -56,17 +51,17 @@ public class Company
     {
         this.sector = sector;
     }
-    public void setFoundedIn(int foundedIn)
-    {
-        this.foundedIn = foundedIn;
-    }
     public void setCeo(String ceo)
     {
         this.ceo = ceo;
     }
+    public void setFoundedIn(int foundedIn)
+    {
+        this.foundedIn = foundedIn;
+    }
     public void setRevenue(long revenue) { this.revenue = revenue; }
 
-    //getters
+    // Getters
     public int getCompanyId()
     {
         return this.companyID;
@@ -83,14 +78,13 @@ public class Company
     {
         return this.sector;
     }
-    public int getFoundedIn()
-    {
-        return this.foundedIn;
-    }
     public String getCeo()
     {
         return this.ceo;
     }
+    public int getFoundedIn()
+    {
+        return this.foundedIn;
+    }
     public long getRevenue() { return this.revenue; }
-
 }

@@ -1,13 +1,9 @@
 package Model;
 
-import java.util.Date;
-import java.util.ArrayList;
-import java.util.Date;
-
 /**
  * Identification comments:
  *   Name: Tanmay Maity
- *   Experiment No: 1
+ *   Experiment No: 01
  *   Experiment Title: Implementing many-to-many relationship using classes and objects
  *   Experiment Date: 28/07/2023
  *   @version 1.0
@@ -36,7 +32,7 @@ public class Location
     private String city;
     private long pincode;
 
-    //setters
+    // Setters
     public void setLocationID(int locationID)
     {
         this.locationID = locationID;
@@ -59,7 +55,7 @@ public class Location
         this.pincode = pincode;
     }
 
-    //getters
+    // Getters
     public int getLocationID()
     {
         return this.locationID;
@@ -81,5 +77,4 @@ public class Location
     {
         return this.pincode;
     }
-
 }
