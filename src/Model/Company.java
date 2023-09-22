@@ -3,9 +3,9 @@ package Model;
 /**
  * Identification comments:
  *   Name: Tanmay Maity
- *   Experiment No: 02
- *   Experiment Title: Taking inputs from the user
- *   Experiment Date: 04/08/2023
+ *   Experiment No: 03
+ *   Experiment Title: Implementing Polymorphism using Constructor overloading and String manipulations
+ *   Experiment Date: 11/08/2023
  *   @version 1.0
 
  * Beginning comments:
