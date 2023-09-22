@@ -26,9 +26,8 @@ public class Operates
     }
 
     // Display Function
-    public void display(int operatesID)
+    public void display()
     {
-        System.out.println("\nOperation ID : " + operatesID + ".");
-        System.out.println("Location ID: "+this.ObjLoc.getLocationID()+"\nLocation city : " + this.ObjLoc.getCity());
+        System.out.println("\nOperation ID : " +getOperatesID() +  ".\nLocation City: " +this.ObjLoc.getCity()+".");
     }
 }

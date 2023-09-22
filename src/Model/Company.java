@@ -3,9 +3,9 @@ package Model;
 /**
  * Identification comments:
  *   Name: Tanmay Maity
- *   Experiment No: 01
- *   Experiment Title: Implementing many-to-many relationship using classes and objects
- *   Experiment Date: 28/07/2023
+ *   Experiment No: 02
+ *   Experiment Title: Taking inputs from the user
+ *   Experiment Date: 04/08/2023
  *   @version 1.0
 
  * Beginning comments:
@@ -21,6 +21,7 @@ package Model;
  * foundedIn : It stores Company's Foundation Year
  * ceo : It stores Company's CEO's Name
  * revenue : It stores Company's overall Revenue
+ * nob : It stores Company's no. of Branches
  */
 
 public class Company
@@ -32,7 +33,8 @@ public class Company
     private String sector;
     private String ceo;
     private int foundedIn;
-    private long revenue;
+    private int revenue;
+    private int nob;
 
     // Setters
     public void setCompanyID(int companyID)
@@ -59,7 +61,8 @@ public class Company
     {
         this.foundedIn = foundedIn;
     }
-    public void setRevenue(long revenue) { this.revenue = revenue; }
+    public void setRevenue(int revenue) { this.revenue = revenue; }
+    public void setNob(int nob) { this.revenue = nob; }
 
     // Getters
     public int getCompanyId()
@@ -86,5 +89,6 @@ public class Company
     {
         return this.foundedIn;
     }
-    public long getRevenue() { return this.revenue; }
+    public int getRevenue() { return this.revenue; }
+    public int getNob() { return this.nob; }
 }

@@ -3,9 +3,9 @@ package Model;
 /**
  * Identification comments:
  *   Name: Tanmay Maity
- *   Experiment No: 01
- *   Experiment Title: Implementing many-to-many relationship using classes and objects
- *   Experiment Date: 28/07/2023
+ *   Experiment No: 02
+ *   Experiment Title: Taking inputs from the user
+ *   Experiment Date: 04/08/2023
  *   @version 1.0
 
  * Beginning comments:
